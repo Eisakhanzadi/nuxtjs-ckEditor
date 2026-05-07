@@ -1,6 +1,6 @@
 <template>
   <section>
-    <main>
+    <main class="container mx-auto md:px-10">
       <nuxt-page/>
     </main>
   </section>

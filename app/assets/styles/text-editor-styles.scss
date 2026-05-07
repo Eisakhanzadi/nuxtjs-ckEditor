@@ -1,0 +1,186 @@
+@media print {
+  body {
+    margin: 0 !important;
+  }
+}
+
+.main-container {
+  width: 100%;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ck-content {
+  font-family: inherit;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.editor-container_classic-editor .editor-container__editor {
+  width: 100%;
+}
+
+.ck-content p.info-box {
+  --background-size: 30px;
+  --background-color: #e91e63;
+  padding: 1.2em 2em;
+  border: 1px solid var(--background-color);
+  background: linear-gradient(
+                  135deg,
+                  var(--background-color) 0%,
+                  var(--background-color) var(--background-size),
+                  transparent var(--background-size)
+  ),
+  linear-gradient(
+                  135deg,
+                  transparent calc(100% - var(--background-size)),
+                  var(--background-color) calc(100% - var(--background-size)),
+                  var(--background-color)
+  );
+  border-radius: 10px;
+  margin: 1.5em 2em;
+  box-shadow: 5px 5px 0 #ffe6ef;
+}
+
+
+.ck-content span.marker {
+  background: yellow;
+}
+
+.ck-content span.spoiler {
+  background: #000;
+  color: #000;
+}
+
+.ck-content span.spoiler:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+.ck-content code {
+  direction: ltr;
+  display: inline-block;
+}
+
+
+.ck.ck-toolbar {
+  flex-wrap: wrap !important;
+}
+
+.ck-editor__editable {
+  height: 300px;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.ck.ck-reset.ck-dropdown__panel.ck-dropdown__panel_se.ck-dropdown__panel-visible {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.ck-content {
+  & * {
+    margin: initial;
+    padding: initial;
+    text-decoration: initial;
+  }
+
+  ul {
+    padding-right: 40px !important;
+  }
+
+}
+
+.ck.ck-toolbar {
+  padding-inline:10px ;
+  padding-block:6px ;
+  row-gap: 8px;
+}
+
+.ck.ck-dropdown__panel {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.ck-table-show-hidden-borders.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+  padding: 0.7rem;
+}
+
+.ck-dropdown__panel {
+  .ck-style-panel {
+    .ck-style-panel__style-group {
+      &:first-child {
+
+        .ck-style-grid {
+          width: 100%;
+          overflow: hidden;
+          display: flex !important;
+          flex-direction: column !important;
+
+          & > .ck-style-grid__button {
+            width: 100%;
+            block-size: auto;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+
+            & > div {
+              & > p {
+                width: 100%;
+                margin: 0;
+              }
+            }
+
+            & > span.ck-button__label {
+              text-align: center;
+              width: 100%;
+            }
+
+            &:hover {
+              cursor: pointer;
+              border-color: var(--background-color);
+            }
+          }
+        }
+      }
+
+      &:last-child {
+        .ck-style-grid {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 0.7rem;
+
+
+          & > .ck-style-grid__button {
+            overflow: hidden;
+            flex: 1;
+            block-size: auto;
+            border-radius: 3px;
+
+            & > span.ck-button__label {
+              text-align: center;
+              width: 100%;
+            }
+
+            & > .ck-content {
+              font-size: 12px;
+              overflow: hidden;
+              span{
+                overflow: hidden;
+              }
+            }
+
+            &:hover {
+              cursor: pointer;
+              border-color: var(--background-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}
