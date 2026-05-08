@@ -1,0 +1,22 @@
+//add fonts
+@font-face {
+  font-family: iranSans;
+  src: url('app/assets/fonts/IRANSans/IRANSansWeb_Regular.ttf') format('ttf'),
+  url('app/assets/fonts/IRANSans/IRANSansWeb_Regular.woff2') format('woff2'),
+  url('app/assets/fonts/IRANSans/IRANSansWeb_Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  src: url('app/assets/fonts/estedad/Estedad-Regular.ttf');
+}
+
+body {
+  font-family: iranSans, Estedad, sans-serif;
+  font-style: normal;
+}
+
+.ck-content * {
+  all: revert;
+}
