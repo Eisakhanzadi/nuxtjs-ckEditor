@@ -1,0 +1,84 @@
+/**
+*	Name:			   Estedad Fonts
+*	Version:		 1.0
+*	Author:			 mrRamezanzad
+*	Website:		 https://kaarsoon.net
+*	Copyright:	 Commercial/Proprietary Software
+**/
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: bold;
+  src: url('estedad/Estedad-Bold.ttf');
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: normal;
+  src: url('estedad/Estedad-Regular.ttf');
+}
+
+@font-face {
+  font-family: EstedadBlack;
+  font-style: normal;
+  font-weight: 500;
+  src: url('estedad/Estedad-Black.ttf');
+}
+
+@font-face {
+  font-family: EstedadBold;
+  font-style: normal;
+  font-weight: bold;
+  src: url('estedad/Estedad-Bold.ttf');
+}
+
+@font-face {
+  font-family: EstedadExtraBold;
+  font-style: normal;
+  font-weight: bolder;
+  src: url('estedad/Estedad-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: EstedadExtraLight;
+  font-style: normal;
+  font-weight: lighter;
+  src: url('estedad/Estedad-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: EstedadLight;
+  font-style: normal;
+  font-weight: 200;
+  src: url('estedad/Estedad-Light.ttf');
+}
+
+@font-face {
+  font-family: EstedadMedium;
+  font-style: normal;
+  font-weight: 300;
+  src: url('estedad/Estedad-Medium.ttf');
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: normal;
+  src: url('estedad/Estedad-Regular.ttf');
+}
+
+@font-face {
+  font-family: EstedadSemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url('estedad/Estedad-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: EstedadThin;
+  font-style: normal;
+  font-weight: 100;
+  src: url('estedad/Estedad-Thin.ttf');
+}
